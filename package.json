@@ -1,0 +1,11 @@
+{
+  "name": "webdav-r2-worker",
+  "version": "1.0.1",
+  "description": "WebDAV server on Cloudflare Worker with R2 storage",
+  "type": "module",
+  "scripts": {
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy"
+  },
+  "license": "MIT"
+}

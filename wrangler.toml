@@ -1,0 +1,19 @@
+# 关闭 Worker URL 和预览 URL
+workers_dev = false
+preview_urls = false
+
+# Worker 名称
+name = "webdav"
+
+main = "src/worker/index.js"
+compatibility_date = "2026-05-31"
+
+# R2 存储桶绑定
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "webdav"
+
+# 环境变量
+[vars]
+WEBDAV_USER = "admin"
+WEBDAV_PASS = "password"

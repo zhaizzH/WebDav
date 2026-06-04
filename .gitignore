@@ -1,0 +1,47 @@
+# Generic Git ignore file
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+# Node.js
+node_modules/
+dist/
+build/
+# Environment files
+.env
+.env.*
+# Logs
+*.log
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Claude
+.claude/
+
+# Cloudflare
+.wrangler/
+.dev.vars
+
+# Testing
+coverage/
+.nyc_output/
+
+# Build artifacts
+*.tgz
+*.tar.gz
+
+# OS generated files
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
